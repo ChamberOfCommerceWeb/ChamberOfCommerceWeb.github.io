@@ -26,7 +26,7 @@
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
+  <div id="index-banner" class="parallax-container" style="min-height:180px">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
@@ -87,6 +87,7 @@ function toggle_visibility(id, view) {
    }
 
 function show_more_menu(value) {
+	$('#first_name2').focus();
   var x = document.getElementById("first_name2");
   x.value = value;
   myFunction();
